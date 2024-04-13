@@ -78,5 +78,15 @@
             >;
         };
 
+        layer_Layer__4 {
+            bindings = <
+ &trans          &trans  &trans  &trans  &trans  &trans               &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &kp ESC   &kp Q   &kp W   &kp R   &kp E               &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &kp TAB   &kp A   &kp S   &kp D  &trans               &trans  &kp SPACE  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LEFT_SHIFT   &kp Z   &kp X   &kp V  &trans                                  &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans          &trans  &trans  &trans  &trans                    &kp LCTRL     &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
